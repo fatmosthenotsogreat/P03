@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="welcome_text">Welcome to Android!</string>
+    <string name="lare_text">Large Text</string>
+    <string name="button1">Button 1</string>
+    <string name="button2">Button 2</string>
+</resources>
