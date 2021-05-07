@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">P03HotelBooking</string>
+    <string name="a_very_fancy_hotel">A Very Fancy Hotel</string>
+    <string name="full_name">Full Name:</string>
+    <string name="enter_full_name">Kris P. Bacon</string>
+    <string name="email_address">Email Address:</string>
+    <string name="enter_email_address">crispybacon@mail.com</string>
+    <string name="salutation">Salutation:    </string>
+
+    <string-array name="salutations">
+        <item>Mr</item>
+        <item>Mrs</item>
+        <item>Doctor</item>
+        <item>Prof.</item>
+    </string-array>
+</resources>
