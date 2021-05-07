@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">practical1</string>
+    <string name="membership">Membership</string>
+    <string name="your_name">Your Name</string>
+    <string name="lady">Lady</string>
+    <string name="gentleman">Gentleman</string>
+    <string name="normal">Normal</string>
+    <string name="premium">Premium</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_up_text">Sign up</string>
+</resources>

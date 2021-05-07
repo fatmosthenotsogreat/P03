@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/VerticalLayout"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
@@ -106,40 +107,31 @@
 
             <TextView
                 android:id="@+id/GuestNumHeader"
-                android:layout_width="wrap_content"
+                android:layout_width="156dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="0"
-                android:text="Number of Guests:" />
+                android:text="@string/number_of_guests" />
 
             <EditText
                 android:id="@+id/AdultNumber"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
+                android:layout_weight="3"
                 android:ems="10"
-                android:inputType="number" />
-
-            <TextView
-                android:id="@+id/AdultText"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="0"
-                android:text="Adults" />
+                android:hint="@string/adults"
+                android:inputType="number"
+                android:textColorHint="#BCB76E79" />
 
             <EditText
                 android:id="@+id/ChildNumber"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
+                android:layout_weight="3"
                 android:ems="10"
-                android:inputType="number" />
+                android:hint="@string/children"
+                android:inputType="number"
+                android:textColorHint="#BCB76E79" />
 
-            <TextView
-                android:id="@+id/ChildrenText"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="0"
-                android:text="Children" />
         </LinearLayout>
 
         <TextView
@@ -158,16 +150,50 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Date of Reservation:" />
+                android:text="@string/date_of_reservation" />
 
             <Button
                 android:id="@+id/DateButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="2"
-                android:text="Select Date"
+                android:text="@string/select_date"
                 app:backgroundTint="#B76E79" />
 
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/PlaceHolder5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/LengthFieldHeader"
+                android:layout_width="25dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:text="@string/length_of_stay" />
+
+            <EditText
+                android:id="@+id/LengthStay"
+                android:layout_width="151dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/DayText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="@string/days" />
         </LinearLayout>
 
         <TextView
@@ -187,7 +213,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Room Type:" />
+                android:text="@string/room_type" />
 
             <Spinner
                 android:id="@+id/RoomType"
@@ -197,4 +223,77 @@
         </LinearLayout>
 
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/PlaceHolder6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/UpdateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/update_price"
+        app:backgroundTint="#B76E79" />
+
+    <TextView
+        android:id="@+id/PlaceHolder7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/DisplayName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/name" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/GuestsDisplay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/number_of_guest" />
+
+            <TextView
+                android:id="@+id/RoomPriceDisplay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/room_price" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/LengthDisplay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/visiting_for" />
+
+            <TextView
+                android:id="@+id/DateDisplay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/visiting_on" />
+
+        </LinearLayout>
+    </LinearLayout>
+
 </LinearLayout>

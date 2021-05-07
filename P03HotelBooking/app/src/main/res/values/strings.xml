@@ -5,12 +5,34 @@
     <string name="enter_full_name">Kris P. Bacon</string>
     <string name="email_address">Email Address:</string>
     <string name="enter_email_address">crispybacon@mail.com</string>
-    <string name="salutation">Salutation:    </string>
+    <string name="salutation">Salutation: </string>
+    <string name="number_of_guests">Number of Guests:</string>
+    <string name="adults">Adults</string>
+    <string name="children">Children</string>
+    <string name="date_of_reservation">Date of Reservation:</string>
+    <string name="select_date">Select Date</string>
+    <string name="room_type">Room Type:</string>
+    <string name="length_of_stay">Length of Stay:</string>
+    <string name="days">days.</string>
+    <string name="update_price">Update Price</string>
+    <string name="name">Name:</string>
+    <string name="number_of_guest">Number of Guests:</string>
+    <string name="room_price">Room Price:</string>
+    <string name="visiting_for">Visiting for:</string>
+    <string name="visiting_on">Visiting On:</string>
 
     <string-array name="salutations">
         <item>Mr</item>
         <item>Mrs</item>
+        <item>Ms</item>
         <item>Doctor</item>
-        <item>Prof.</item>
+        <item>Prof</item>
+    </string-array>
+
+    <string-array name="room_type">
+        <item>Jailhouse</item>
+        <item>Peasant Room</item>
+        <item>Better-off Suite</item>
+        <item>Entitled Person Suite</item>
     </string-array>
 </resources>
