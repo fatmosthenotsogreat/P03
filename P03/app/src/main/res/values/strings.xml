@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">P03</string>
+    <string name="enter">Enter something</string>
+    <string name="disabled">Disabled</string>
+    <string name="enabled">Enabled</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="display">Display</string>
+    <string name="display_what_user_types">Display what user types</string>
+</resources>
