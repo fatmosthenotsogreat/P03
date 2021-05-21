@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/CAGtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/cag_calculator"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/RubricsID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rubrics" />
+
+    <ToggleButton
+        android:id="@+id/ButtonRubrics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ToggleButton"
+        android:textOff="60 + 20 + 20"
+        android:textOn="50 + 25 + 25" />
+
+    <TextView
+        android:id="@+id/AKSID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/attainment_of_knowledge_and_skills_1_4" />
+
+    <EditText
+        android:id="@+id/AKSInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/SDLID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/self_directed_learning_1_4" />
+
+    <EditText
+        android:id="@+id/SDLInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/CoLID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/collaborative_learning_1_4" />
+
+    <EditText
+        android:id="@+id/COLInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/ButtonSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/submit"
+            app:backgroundTint="#A3A3A3" />
+
+        <Button
+            android:id="@+id/ButtonCAGReset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/reset"
+            app:backgroundTint="#A3A3A3" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/DisplayCAG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+</LinearLayout>

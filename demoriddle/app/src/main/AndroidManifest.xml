@@ -9,7 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Demoriddle">
-        <activity android:name=".AnswerActivity2"></activity>
         <activity android:name=".AnswerActivity1" />
         <activity android:name=".MainActivity">
             <intent-filter>
