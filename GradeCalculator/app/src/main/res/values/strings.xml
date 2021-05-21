@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">GradeCalculator</string>
+    <string name="grade_calculator">Grade Calculator</string>
+    <string name="gpa_calculator">GPA Calculator</string>
+    <string name="enter">Enter</string>
+    <string name="cag_calculator">CAG Calculator</string>
+    <string name="enter_cag_grade">Enter CAG Grade</string>
+    <string name="undo">Undo</string>
+    <string name="reset">Reset</string>
+    <string name="show_gpa">Show GPA</string>
+    <string name="rubrics">Rubrics</string>
+    <string name="attainment_of_knowledge_and_skills_1_4">Attainment of Knowledge and Skills (1-4):</string>
+    <string name="self_directed_learning_1_4">Self-Directed Learning (1-4):</string>
+    <string name="collaborative_learning_1_4">Collaborative Learning (1-4):</string>
+    <string name="submit">Submit</string>
+</resources>
