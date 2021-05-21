@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="16dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewQ1"
+            android:layout_width="wrap_content"
+            android:layout_height="145dp"
+            android:layout_weight="2"
+            android:text="@string/question_1_nthis_word_has_the_same_npronounciation_even_after_nremoving_4_letters_from_it" />
+
+        <Button
+            android:id="@+id/buttonRevealQ1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/reveal"
+            app:backgroundTint="#757575"
+            app:rippleColor="#FFFFFF" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewQ2"
+            android:layout_width="wrap_content"
+            android:layout_height="638dp"
+            android:layout_weight="3"
+            android:text="@string/question_2_n_how_do_you_make_1_ndisappear" />
+
+        <Button
+            android:id="@+id/buttonRevealQ2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/reveal"
+            app:backgroundTint="#757575" />
+    </LinearLayout>
+
+</LinearLayout>
