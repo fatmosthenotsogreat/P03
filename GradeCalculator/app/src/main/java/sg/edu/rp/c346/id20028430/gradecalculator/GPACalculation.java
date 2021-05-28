@@ -68,6 +68,7 @@ public class GPACalculation extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 cagList.clear();
+                displayGPA.setText("");
                 Toast.makeText(GPACalculation.this, "All CAG Grades are removed", Toast.LENGTH_SHORT).show();
             }
         });
@@ -102,7 +103,7 @@ public class GPACalculation extends AppCompatActivity {
                 String message;
                 String displayMessage = "";
 
-                if (totalGPA == 0.0) {
+                if (cagList.size() == 0) {
                     gpa = 0.00;
                     displayMessage = "You have not entered any CAG Grades";
                 }
